@@ -1,0 +1,313 @@
+*{
+padding: 0;
+margin:0;
+font-family: "Open Sans", sans-serif;
+}
+.conteinar
+{
+display: grid;
+width:1520px;
+height:1000px ;
+grid-template-rows:.5fr 3fr 1fr;
+border: 20px;
+gap: 3px ;
+
+}
+#logo
+{
+height:62px;
+width: 100px;
+background-color:#131921;
+
+}
+.header
+{
+
+background-color: #232F3E;
+border-radius: 20px;
+width: 100%;
+border-radius:3px ;
+
+
+}
+.navbar1
+{
+background-color:#131921;
+display:flex;
+
+
+
+}
+
+.map-icon 
+{
+    display: flex;
+
+}
+
+
+.map
+{
+margin-left:20px;
+margin-top: 11px;
+}
+a{
+
+list-style: none;
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
+
+a:hover {
+    color: #ddd;
+  }
+
+.part2
+{
+display:flex;
+margin-left:10px ;
+margin-top:5px ;
+}
+
+
+
+.change_languge
+{
+
+border: none;
+cursor: pointer;
+background-color:#131921;
+color: white;
+
+}
+
+.country select
+{
+
+background-color: #c7c9c9;
+border-top-left-radius: 3px;
+border-bottom-left-radius:3px ;
+padding-left: 13px;
+height: 45px;
+width:70px;
+display:block;
+font-family: inherit;
+
+cursor: pointer;
+border: 0;
+}
+
+
+select
+{
+padding-left: 10px;
+width: 50px;
+height:50px ;
+
+}
+
+.nav-input
+{
+width: 50px;
+height: 45px;
+background-color: rgb(194, 112, 54) ;
+border-color: #8b6021;
+font-family: inherit;
+border-top-right-radius: 3px;
+border-bottom-right-radius:3px ;
+cursor: pointer;
+border: 0;
+line-height: 35px;
+
+}
+.nav-search
+{
+    margin-top:7px ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left:22px;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.nav-search span
+{
+padding-top: 12px;
+
+
+}
+
+
+
+
+#twotabsearchtextbox
+{
+width:800px;
+height:40px;
+border-radius: 3px;
+font-family: inherit;
+border: 0;
+line-height: 35px;
+}
+.navbar2-amazon
+{
+display: flex;
+width: 1500px;
+height: 50px; 
+justify-content: space-between;
+
+
+}
+.nav1-amazon
+{
+
+    display: flex;
+
+    width: 70%;
+    height: 50px; 
+    
+}
+.panel
+{
+margin-top: 11px;
+padding: 0;
+width: 10px;
+
+}
+.all
+{
+
+margin:15px ;
+
+
+}
+
+
+
+.deals
+{
+
+margin-top: 12px;
+margin-right: 11px;
+
+}
+
+.center-navbar
+{
+    display: flex;
+    width:50% ;
+    padding:12px;
+    height:100% ;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.iphone
+{
+display: flex;
+background-color: white;
+justify-content: space-between;
+height:700px ;
+width: 1470px;
+margin: 35px;
+
+}
+.iphone img
+{
+height:650px ;
+width:500px ;
+margin-top:15px ;
+margin-left: 150px;
+
+
+
+}
+
+.info
+{
+width: 700px;
+height: 700px;
+
+
+
+
+}
+
+
+.my-phone
+{
+    width: 700px;
+    height: 200px;
+    margin-top: 35px;
+
+}
+
+
+.my-phone span
+{
+height: 100px;
+width: 750px;
+font-size: 24px;
+line-height: 32px;
+font-weight: 400;
+-webkit-text-size-adjust: 100%;
+font-family: Arial,sans-serif;
+
+
+}
+
+
+
+.my-phone span a 
+{
+color: #A5DEF4;
+cursor: pointer;
+
+}
+
+.my-phone span a:hover 
+{
+cursor: pointer;
+color: #c7c9c9;
+}
+
+
+.img-like 
+{
+
+padding: 0;
+}
+
+.img-like img
+{
+width: 200px;
+position:absolute;
+height: 50px;
+position: relative;
+right: 160px; 
+display: inline-block;
+}
+
+
+
+
+
+.main
+{
+
+
+background-color:#E3E6E6;
+
+
+}
+
+.footer
+{
+
+    background-color: rgb(120, 18, 18);
+
+}
